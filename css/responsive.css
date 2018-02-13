@@ -1,0 +1,43 @@
+@media screen and (max-width:1027px) {
+    .container {
+        margin: 10px 10%;
+    }
+    header {
+        margin-top: 50px;
+    }
+    header .headshot {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    header .title,
+    .subtitle {
+        text-align: center;
+    }
+    .cover {
+        height: auto;
+    }
+    .featured-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1407px) {
+    .work-item {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:876px) {
+    .work-item {
+        margin: 10px auto;
+        width: 100%;
+    }
+    .item-link {
+        border-bottom: 0px;
+    }
+    .item-img {
+        width: 100%;
+        height: auto;
+    }
+}
